@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 198px;
+    
+}
+
+.dp
+{
+    position: absolute;
+    right: 28px;
+    top: 15px;
+    height: 35px;
+}
+
+.dots
+{
+    position: absolute;
+    right: 83px;
+    top: 24px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;   
+}
+
+a:hover
+{
+    text-decoration: underline;
+    
+}
+
+.images
+{
+    position: absolute;
+    right: 120px;
+    top: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+.gmail
+{
+    position: absolute;
+    right: 178px;
+    top: 24px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+.buttons
+{
+    height: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar 
+{
+    background-image: url('micro.png'), url('search.png');
+    background-repeat: no-repeat;
+    background-position: 95%, 3%;
+    background-size: 16px, 20px;
+  
+    width: 538px;
+    padding: 0 48px;
+    margin: 25px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    height: 45px;
+    margin-left: 370px;
+}
+
+.buttons input 
+{
+    margin: 0 10px;
+    padding: 0 1rem;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(219, 219, 219, 0.3);
+    border: 1px solid rgba(219, 219, 219, 0.3);
+}
+
+
+.buttons input:hover 
+{
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(219, 219, 219, 0.3);
+    border: 1px solid rgb(194, 192, 192);
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #ebebeb;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgray;
+      
+}
+
+.left li 
+{
+    float: left;
+}
+
+.right li
+{
+    float: right;
+}
+
+li a 
+{
+    color: rgba(0,0,0,.54);
+    display: block; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: small;
+}
+
+.country
+{
+    float: left;
+    color: rgba(0,0,0,.54);
+    display: block; 
+    padding: 16px 16px; 
+    font-size: small;
+    position: fixed;
+    margin-bottom: 15px;
+    bottom: 30px;
+    width: 100%;
+    background: #ebebeb;
+    border-bottom: 1px solid lightgray;
+}
